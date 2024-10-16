@@ -1,0 +1,14 @@
+{application, emqx_tcp_300_plugin,
+ [{description, "EMQX TCP 300 Plugin"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {emqx_tcp_300_plugin_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

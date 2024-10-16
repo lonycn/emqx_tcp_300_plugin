@@ -1,0 +1,10 @@
+{application,emqx_tcp_300_plugin,
+             [{description,"EMQX TCP 300 Plugin"},
+              {vsn,"0.1.0"},
+              {modules,[alarm_handler,bcd_util,crc_util,encoder,
+                        gateway_handler,protocol_parser,sensor_handler,
+                        tcp_handler]},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {mod,{emqx_tcp_300_plugin_app,[]}}]}.

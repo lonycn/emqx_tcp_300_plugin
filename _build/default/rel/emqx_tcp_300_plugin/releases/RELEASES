@@ -1,0 +1,6 @@
+%% coding: utf-8
+[{release,"emqx_tcp_300_plugin","0.1.0","15.1.1",
+          [{kernel,"10.1","./lib/kernel-10.1"},
+           {stdlib,"6.1.1","./lib/stdlib-6.1.1"},
+           {emqx_tcp_300_plugin,"0.1.0","./lib/emqx_tcp_300_plugin-0.1.0"}],
+          permanent}].
